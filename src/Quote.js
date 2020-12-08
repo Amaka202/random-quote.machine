@@ -37,11 +37,11 @@ export default class Quote extends Component {
         return (
             <div className="container" style={{backgroundColor: this.state.style}}>
                 <div id="quote-box">
-                    <p id="quote-text" style={{color: this.state.style}}>{this.state.quote}</p>
+                    <p id="text" style={{color: this.state.style}}>{this.state.quote}</p>
                     <p id="author" style={{color: this.state.style}}>-{this.state.author}</p>
                     <div id="links">
                         <div id="media-links">
-                            <a href="google.com" id="tweet-quote" style={{backgroundColor: this.state.style}}>{element}</a>
+                            <a href="twitter.com/intent/tweet" id="tweet-quote" style={{backgroundColor: this.state.style}}>{element}</a>
                             <a href="google.com" id="tweet-quote" style={{backgroundColor: this.state.style}}>{element}</a>
                         </div>
                         <button id="new-quote" onClick={this.handleQuote} style={{backgroundColor: this.state.style}}>New quote</button>
