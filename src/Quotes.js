@@ -5,3 +5,7 @@ export const quotes = [
     {author: "Patience Johnson", quote: "There’s an interesting story about Abraham Lincoln. During the American Civil War he signed an order transferring certain regiments"},
     {author: "Steven Cuoco", quote: "Dreams never fade as long as you make them a reality."}
 ]
+
+export const colors = [
+    "red", "black", "green", "coral", "salmon", "blue"
+]
